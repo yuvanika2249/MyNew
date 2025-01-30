@@ -5,7 +5,7 @@ st.title("Job Salary Prediction")
 with st.sidebar:
     select = option_menu(
         menu_title= "Prediction",
-        options=["Home","About","Service"],
+        options=["Home","About","Service","Contact"],
         icons=["houses","file-person","database"],
         menu_icon='cast'
     )
@@ -20,15 +20,10 @@ elif select == "About":
 
 elif select == "Service":
     st.header("Service Pages")
+
+elif select == "Contact":
+    st.header("Contact Pages")
     
-
-
-
-
-
-
-
-
 col1,col2,col3 = st.columns(3)
 
 with col1:
