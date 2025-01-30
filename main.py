@@ -6,7 +6,7 @@ with st.sidebar:
     select = option_menu(
         menu_title= "Prediction",
         options=["Home","About","Service","Contact"],
-        icons=["houses","file-person","database"],
+        icons=["houses","file-person","database","person-lines-fill"],
         menu_icon='cast'
     )
 
